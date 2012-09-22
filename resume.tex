@@ -1,0 +1,118 @@
+% LaTeX resume using res.cls
+\documentclass[margin]{res}
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+\setlength{\textwidth}{5in} % set width of text portion
+
+\begin{document}
+
+% Center the name over the entire width of resume:
+ \moveleft.5\hoffset\centerline{\large\bf Shouren Yang}
+% Draw a horizontal line the whole width of resume:
+ \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip
+% address begins here
+% Again, the address lines must be centered over entire width of resume:
+ \moveleft.5\hoffset\centerline{10 Xitucheng Road}
+ \moveleft.5\hoffset\centerline{Haidian District, Beijing 100876}
+ \moveleft.5\hoffset\centerline{(86)1861-078-2697 (Bejing)}
+ \moveleft.5\hoffset\centerline{(86)1506-781-8982 (Wenzhou)}
+ \moveleft.5\hoffset\centerline{yangshouren@gmail.com}
+
+\normalsize
+\begin{resume}
+ 
+\section{OBJECTIVE}  
+    A position in the field of computers with special interests in system 
+    configuration management, network engineering and information processing.
+ 
+
+\section{EDUCATION} 
+    {\sl Bachelor of Engineering,} 
+        Communication Engineering \\
+        Beijing University of Posts and Telecommunications, Bejing 
+        \hfill Expected July 2013 \\
+        %Concentration: Computer Science \\ 
+        Grade Point Average: 81 out of 100\\
+        CET 6: 502\\
+ 
+ 
+\section{COMPUTER \\ SKILLS} 
+    {\sl Languages \& Software:}
+    \begin{itemize} 
+        \item Linux C/C++, Shell Script 
+        \hfill Three years experience
+        \item Matlab \& Mathematica 
+        \hfill Two years experience
+        \item Python, PHP, MySQL \& \LaTeX 
+        \hfill Half year experience
+    \end{itemize}
+    {\sl Operating Systems:} 
+    \begin{itemize}
+        \item Linux (Familiar with CentOS, Ubuntu \& Archlinux)
+        \item Free BSD
+        \item Windows CE 6.0
+    \end{itemize} 
+ 
+\section{PROJECT \\ EXPERIENCE} 
+    {\sl NOX Component Developer} 
+        \hfill Summer 2011-Summer 2012 \\
+        Future Network Lab \\
+        Beijing University of Posts and Telecommunications, Beijing
+        \begin{itemize}  
+            \itemsep -2pt %reduce space between items
+            \item Developed a component on NOX(An OpenFlow Controller) to enable one-way Communication
+            \item Connected NOX with MySQL for routing node storage
+            \item Configured NetFPGA board that supports OpenFlow protocol  
+        \end{itemize}
+ 
+    {\sl Researcher} 
+        \hfill  Spring 2012-Summer 2012 \\
+        Future Network Lab \\
+        Beijing University of Posts and Telecommunications, Beijing 
+        \begin{itemize}  
+            \itemsep -2pt %reduce space between items
+            \item Configured computers to establish a CCNx network for experiment
+            \item Developed a program to streaming Video on CCNx network
+            \item Evaluated the performance of CCNx network with current Internet
+        \end{itemize} 
+        
+    {\sl Researcher}
+        \hfill Summer 2012-Present \\
+        Future Network Lab \\
+        Beijing University of Posts and Telecommunications, Beijing
+        \begin{itemize}
+            \itemsep -2pt %reduce space between items
+            \item Designed an ARP Proxy \& a simple DHCP Server for POX(An OpenFlow Controller) to reduce the broadcast traffic in the OpenFlow network
+            \item Implemented the ARP Proxy \& DHCP Server modules on POX using Python
+            \item Tested the ARP Proxy \& DHCP Server with Scapy
+            \item Evaluated the improvement comparing with current LAN 
+        \end{itemize}                                                                        
+        
+\section{ACTIVITIES}             
+        Elected {\it Leader}, Liaison Department, Red Cross of BUPT 
+        \hfill Fall 2009-Summer 2011
+        
+        Member, Student Union of BUPT
+        \hfill Fall 2009-Summer 2011 
+        
+        Member, OGX Department of AIESEC of BUPT
+        \hfill Fall 2010-Summer 2011
+        
+        Personal Blog, http://kimi4ysr.me
+        \hfill Spring 2012-Present
+                
+\section{Honors \& \\ Awards}
+        {\sl Outstanding individual for Anti-AIDS in Haidian District}
+        \hfill Summer 2011
+        
+        {\sl Prize for National Undergraduate Electronic Design Contest \\- 2012 Information Security Technology Invitational Contest}
+        \hfill Summer 2012
+        
+\section{Hobby} A faithful fan of Arsenal FC 
+
+\end{resume}
+\end{document}
+
+
+
+
